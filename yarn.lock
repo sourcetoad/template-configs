@@ -107,20 +107,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sourcetoad/eslint-base-template-configs-es6@^0.0.2, @sourcetoad/eslint-base-template-configs-es6@workspace:packages/es6":
+"@sourcetoad/eslint-config-base-template-es6@^0.0.3, @sourcetoad/eslint-config-base-template-es6@workspace:packages/es6":
   version: 0.0.0-use.local
-  resolution: "@sourcetoad/eslint-base-template-configs-es6@workspace:packages/es6"
+  resolution: "@sourcetoad/eslint-config-base-template-es6@workspace:packages/es6"
   peerDependencies:
     eslint: ">=8.0"
     eslint-plugin-simple-import-sort: ">=10.0.0"
   languageName: unknown
   linkType: soft
 
-"@sourcetoad/eslint-base-template-configs-vue@workspace:packages/vue":
+"@sourcetoad/eslint-config-base-template-vue@workspace:packages/vue":
   version: 0.0.0-use.local
-  resolution: "@sourcetoad/eslint-base-template-configs-vue@workspace:packages/vue"
+  resolution: "@sourcetoad/eslint-config-base-template-vue@workspace:packages/vue"
   dependencies:
-    "@sourcetoad/eslint-base-template-configs-es6": ^0.0.2
+    "@sourcetoad/eslint-config-base-template-es6": ^0.0.3
   peerDependencies:
     eslint: ">=8.0"
     eslint-plugin-simple-import-sort: ">=10.0.0"
