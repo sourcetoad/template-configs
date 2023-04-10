@@ -1,6 +1,6 @@
 module.exports = {
   'extends': [
-    '@sourcetoad/eslint-base-template-configs-es6',
+    '@sourcetoad/eslint-config-base-template-es6',
     'plugin:vue/vue3-essential',
   ],
   'plugins': [
