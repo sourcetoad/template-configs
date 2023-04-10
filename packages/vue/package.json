@@ -1,6 +1,6 @@
 {
   "name": "@sourcetoad/eslint-config-base-template-vue",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.cjs",
   "license": "proprietary",
   "repository": {
@@ -19,7 +19,7 @@
     "lint": "eslint . --ext=.js,.cjs,.mjs,.ts"
   },
   "dependencies": {
-    "@sourcetoad/eslint-config-base-template-es6": "^0.0.3"
+    "@sourcetoad/eslint-config-base-template-es6": "^0.0.4"
   },
   "peerDependencies": {
     "eslint": ">=8.0",
