@@ -16,7 +16,7 @@
     "access": "restricted"
   },
   "workspaces": [
-    "packages/common"
+    "packages/*"
   ],
   "scripts": {
     "lint": "npm run lint:common && npm run lint:es6 && npm run lint:react-native",
@@ -25,8 +25,7 @@
     "lint:react-native": "npm -w packages/react-native run lint"
   },
   "devDependencies": {
-    "eslint": "^8.0",
-    "lerna": "^6.6.1"
+    "eslint": "^8.0"
   },
   "packageManager": "yarn@3.5.0"
 }
