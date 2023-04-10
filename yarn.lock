@@ -107,34 +107,25 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sourcetoad/eslint-base-template-configs-common@^0.0.1, @sourcetoad/eslint-base-template-configs-common@workspace:packages/common":
-  version: 0.0.0-use.local
-  resolution: "@sourcetoad/eslint-base-template-configs-common@workspace:packages/common"
-  peerDependencies:
-    eslint: ">=8.0"
-  languageName: unknown
-  linkType: soft
-
-"@sourcetoad/eslint-base-template-configs-es6@workspace:packages/es6":
+"@sourcetoad/eslint-base-template-configs-es6@^0.0.1, @sourcetoad/eslint-base-template-configs-es6@workspace:packages/es6":
   version: 0.0.0-use.local
   resolution: "@sourcetoad/eslint-base-template-configs-es6@workspace:packages/es6"
-  dependencies:
-    "@sourcetoad/eslint-base-template-configs-common": ^0.0.1
   peerDependencies:
     eslint: ">=8.0"
-    eslint-plugin-unused-imports: ">=2.0.0"
+    eslint-plugin-simple-import-sort: ">=10.0.0"
   languageName: unknown
   linkType: soft
 
-"@sourcetoad/eslint-base-template-configs-react-native@workspace:packages/react-native":
+"@sourcetoad/eslint-base-template-configs-vue@workspace:packages/vue":
   version: 0.0.0-use.local
-  resolution: "@sourcetoad/eslint-base-template-configs-react-native@workspace:packages/react-native"
+  resolution: "@sourcetoad/eslint-base-template-configs-vue@workspace:packages/vue"
   dependencies:
-    "@sourcetoad/eslint-base-template-configs-common": ^0.0.1
+    "@sourcetoad/eslint-base-template-configs-es6": ^0.0.1
   peerDependencies:
-    "@react-native-community/eslint-config": ">=3.2.0"
     eslint: ">=8.0"
-    eslint-plugin-unused-imports: ">= 2.0.0"
+    eslint-plugin-simple-import-sort: ">=10.0.0"
+    eslint-plugin-unused-imports: ">=2.0.0"
+    eslint-plugin-vue: ">=9.10.0"
   languageName: unknown
   linkType: soft
 

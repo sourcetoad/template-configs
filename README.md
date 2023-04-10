@@ -6,6 +6,12 @@ Where projects start with configs to keep or replace with team specified ones. O
  * [Iceman](https://github.com/sourcetoad/pod-iceman-linter-config)
 
 ### Current configs
-* [Common](packages/common/README.md)
-* [ES6](packages/es6/README.md)
-* [React Native](packages/react-native/README.md)
+* [Common](packages/es6/README.md)
+* [ES6](packages/vue/README.md)
+
+
+## Notes
+
+ * In order for this package to work properly. We peer to all dependencies.
+ * This means the consuming package must include the peered dependencies.
+ * This prevents a mismatch of versions if the rules limited what version of eslint could be used.

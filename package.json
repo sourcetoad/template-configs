@@ -19,10 +19,9 @@
     "packages/*"
   ],
   "scripts": {
-    "lint": "npm run lint:common && npm run lint:es6 && npm run lint:react-native",
-    "lint:common": "npm -w packages/common run lint",
+    "lint": "npm run lint:es6 && npm run lint:vue",
     "lint:es6": "npm -w packages/es6 run lint",
-    "lint:react-native": "npm -w packages/react-native run lint"
+    "lint:vue": "npm -w packages/vue run lint"
   },
   "devDependencies": {
     "eslint": "^8.0"

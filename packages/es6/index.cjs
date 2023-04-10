@@ -1,25 +1,46 @@
 module.exports = {
-  extends: [
+  'env': {
+    'browser': true,
+    'es2021': true,
+  },
+  'extends': [
     'eslint:recommended',
-    '@sourcetoad/eslint-base-template-configs-common',
+    'plugin:@typescript-eslint/recommended',
   ],
-  env: {
-    es6: true,
+  'ignorePatterns': ['/.eslintrc.js', '/*.config.js'],
+  'overrides': [],
+  'parser': 'vue-eslint-parser',
+  'parserOptions': {
+    'ecmaVersion': 'latest',
+    'sourceType': 'module',
+    'parser': '@typescript-eslint/parser',
   },
-  parserOptions: {
-    sourceType: 'module',
-    ecmaVersion: 'latest',
-  },
-  plugins: [
-    'unused-imports',
+  'plugins': [
+    '@typescript-eslint',
+    'simple-import-sort'
   ],
-  /* eslint sort-keys: ["error", "asc"] */
-  rules: {
-    'no-unused-vars': ['error', {'args': 'none'}],
-    'no-var': 'error',
-    'require-jsdoc': 'off',
-    'unused-imports/no-unused-imports': 'error',
-    'valid-jsdoc': 'error',
-  },
-  /* eslint sort-keys: "off" */
+  'rules': {
+    'array-bracket-spacing': ['error', 'never'],
+    'comma-dangle': ['error', 'always-multiline'],
+    'eqeqeq': 'error',
+    'indent': ['error', 4, {'SwitchCase': 1}],
+    'max-len': ['error', 120, {'ignorePattern': '^import'}],
+    'no-console': ['error', {'allow': ['warn', 'error']}],
+    'object-curly-spacing': ['error', 'never'],
+    'prefer-const': 'warn',
+    'quotes': [
+      'error',
+      'single',
+      {
+        'avoidEscape': true,
+      },
+    ],
+    'semi': ['error'],
+    'simple-import-sort/imports': [
+      'error',
+      {
+        'groups': [['^\\u0000', '^node:', '^@?\\w', '^', '^\\.']],
+      }
+    ],
+  }
 };

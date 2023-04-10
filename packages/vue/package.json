@@ -1,11 +1,11 @@
 {
-  "name": "@sourcetoad/eslint-base-template-configs-react-native",
+  "name": "@sourcetoad/eslint-base-template-configs-vue",
   "version": "0.0.1",
   "main": "index.cjs",
   "license": "proprietary",
   "repository": {
     "url": "git@github.com:sourcetoad/base-template-configs.git",
-    "directory": "packages/react-native",
+    "directory": "packages/vue",
     "type": "git"
   },
   "bugs": {
@@ -19,11 +19,12 @@
     "lint": "eslint . --ext=.js,.cjs,.mjs,.ts"
   },
   "dependencies": {
-    "@sourcetoad/eslint-base-template-configs-common": "^0.0.1"
+    "@sourcetoad/eslint-base-template-configs-es6": "^0.0.1"
   },
   "peerDependencies": {
-    "@react-native-community/eslint-config": ">=3.2.0",
     "eslint": ">=8.0",
-    "eslint-plugin-unused-imports": ">= 2.0.0"
+    "eslint-plugin-simple-import-sort": ">=10.0.0",
+    "eslint-plugin-unused-imports": ">=2.0.0",
+    "eslint-plugin-vue": ">=9.10.0"
   }
 }

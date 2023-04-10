@@ -18,11 +18,8 @@
   "scripts": {
     "lint": "eslint . --ext=.js,.cjs,.mjs,.ts"
   },
-  "dependencies": {
-    "@sourcetoad/eslint-base-template-configs-common": "^0.0.1"
-  },
   "peerDependencies": {
     "eslint": ">=8.0",
-    "eslint-plugin-unused-imports": ">=2.0.0"
+    "eslint-plugin-simple-import-sort": ">=10.0.0"
   }
 }
