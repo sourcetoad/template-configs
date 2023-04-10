@@ -1,0 +1,23 @@
+name: Test
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+on: [ push ]
+
+jobs:
+  test:
+    runs-on: ubuntu-22.04
+    name: Test
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          registry-url: 'https://npm.pkg.github.com'
+          node-version: 16
+          cache: 'yarn'
+
+      - name: NPM Install
+        run: yarn install --immutable
+
+      - name: Linting
+        run: yarn run lint

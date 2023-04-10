@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "@sourcetoad/base-template-configs",
+  "description": "Linting configs for projects to create a copy from or work from.",
+  "license": "proprietary",
+  "homepage": "https://github.com/sourcetoad/base-template-configs#README.md",
+  "repository": {
+    "url": "https://github.com/sourcetoad/base-template-configs.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/sourcetoad/base-template-configs/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "npm run lint:common && npm run lint:es6 && npm run lint:react-native",
+    "lint:common": "npm -w packages/common run lint",
+    "lint:es6": "npm -w packages/es6 run lint",
+    "lint:react-native": "npm -w packages/react-native run lint"
+  },
+  "devDependencies": {
+    "eslint": "^8.0"
+  },
+  "packageManager": "yarn@3.5.0"
+}

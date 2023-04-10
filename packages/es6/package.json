@@ -1,0 +1,28 @@
+{
+  "name": "@sourcetoad/eslint-base-template-configs-es6",
+  "version": "0.0.1",
+  "main": "index.cjs",
+  "license": "proprietary",
+  "repository": {
+    "url": "git@github.com:sourcetoad/base-template-configs.git",
+    "directory": "packages/es6",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/sourcetoad/base-template-configs/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
+  "scripts": {
+    "lint": "eslint . --ext=.js,.cjs,.mjs,.ts"
+  },
+  "dependencies": {
+    "@sourcetoad/eslint-base-template-configs-common": "^0.0.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0",
+    "eslint-plugin-unused-imports": ">=2.0.0"
+  }
+}
