@@ -19,12 +19,12 @@
     "packages/*"
   ],
   "scripts": {
-    "lint": "npm run lint:es6 && npm run lint:vue",
+    "lint": "npm run lint:es6 && npm run lint:vue && npm run lint:prettier",
     "lint:es6": "npm -w packages/es6 run lint",
-    "lint:vue": "npm -w packages/vue run lint"
+    "lint:vue": "npm -w packages/vue run lint",
+    "lint:prettier": "npm -w packages/prettier run lint"
   },
   "devDependencies": {
     "eslint": "^8.0"
-  },
-  "packageManager": "yarn@3.5.0"
+  }
 }

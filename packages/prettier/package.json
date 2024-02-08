@@ -1,11 +1,11 @@
 {
-  "name": "@sourcetoad/eslint-config-base-template-vue",
-  "version": "0.0.4",
-  "main": "index.cjs",
+  "name": "@sourcetoad/config-prettier-base-template",
+  "version": "0.1.0",
+  "main": "index.js",
   "license": "proprietary",
   "repository": {
     "url": "git@github.com:sourcetoad/base-template-configs.git",
-    "directory": "packages/vue",
+    "directory": "packages/prettier",
     "type": "git"
   },
   "bugs": {
@@ -18,12 +18,8 @@
   "scripts": {
     "lint": "eslint . --ext=.js,.cjs,.mjs,.ts"
   },
-  "dependencies": {
-    "@sourcetoad/eslint-config-base-template-es6": "^0.0.4"
-  },
   "peerDependencies": {
-    "eslint-plugin-simple-import-sort": ">=10.0.0",
-    "eslint-plugin-unused-imports": ">=2.0.0",
-    "eslint-plugin-vue": ">=9.10.0"
+    "prettier": ">=3.0",
+    "eslint-config-prettier": ">=9.0"
   }
 }
