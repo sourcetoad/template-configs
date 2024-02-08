@@ -1,6 +1,6 @@
 {
   "name": "@sourcetoad/config-prettier-base-template",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "prettier.config.js",
   "license": "proprietary",
   "repository": {
