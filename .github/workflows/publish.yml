@@ -13,12 +13,12 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: 16
-          cache: 'yarn'
+          node-version: 18
+          cache: 'npm'
           registry-url: 'https://npm.pkg.github.com'
 
-      - name: Yarn Install
-        run: yarn install --immutable
+      - name: NPM Install
+        run: npm ci
 
       - name: Publish
         run: npm publish --workspaces
