@@ -21,5 +21,6 @@
   "peerDependencies": {
     "eslint": ">=8.0",
     "eslint-plugin-simple-import-sort": ">=10.0.0"
-  }
+  },
+  "type": "commonjs"
 }
