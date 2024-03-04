@@ -1,4 +1,5 @@
-module.exports = {
+// TODO https://eslint.org/docs/latest/use/configure/configuration-files-new
+export default [{
   'env': {
     'browser': true,
     'es2021': true,
@@ -43,4 +44,4 @@ module.exports = {
       }
     ],
   }
-};
+}];

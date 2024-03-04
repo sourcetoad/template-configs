@@ -1,4 +1,5 @@
-module.exports = {
+// TODO https://eslint.org/docs/latest/use/configure/configuration-files-new
+export default [{
   'extends': [
     '@sourcetoad/eslint-config-base-template-es6',
     'plugin:vue/vue3-essential',
@@ -30,4 +31,4 @@ module.exports = {
       },
     ],
   }
-};
+}];
