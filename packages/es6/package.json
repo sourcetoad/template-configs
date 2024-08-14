@@ -16,10 +16,11 @@
     "access": "restricted"
   },
   "scripts": {
-    "lint": "eslint . --ext=.js,.cjs,.mjs,.ts"
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
   },
   "peerDependencies": {
-    "eslint": ">=8.0",
+    "eslint": ">=9.0",
     "eslint-plugin-simple-import-sort": ">=10.0.0"
   },
   "type": "module"
