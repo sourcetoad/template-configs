@@ -16,7 +16,8 @@
     "access": "restricted"
   },
   "scripts": {
-    "lint": "eslint . --ext=.js,.cjs,.mjs,.ts"
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
   },
   "dependencies": {
     "@sourcetoad/eslint-config-base-template-es6": "^0.1.1"
