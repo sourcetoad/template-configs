@@ -1,4 +1,5 @@
 import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort';
+import globals from 'globals';
 import ts from 'typescript-eslint';
 
 export default [
@@ -6,11 +7,16 @@ export default [
     {
         name: 'base-template-config-es6',
         plugins: {
+            'typescript': ts,
             'simple-import-sort': eslintPluginSimpleImportSort,
         },
         languageOptions: {
             parserOptions: {
                 parser: '@typescript-eslint/parser',
+            },
+            globals: {
+                ...globals.browser,
+                ...globals.es2021,
             },
         },
         rules: {

@@ -19,6 +19,9 @@
     "lint": "eslint",
     "lint:fix": "eslint --fix"
   },
+  "devDependencies": {
+    "globals": "^15.9.0"
+  },
   "peerDependencies": {
     "eslint": ">=9.0",
     "eslint-plugin-simple-import-sort": ">=10.0.0",
