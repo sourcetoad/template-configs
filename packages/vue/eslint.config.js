@@ -11,6 +11,11 @@ export default [
             'vue': pluginVue,
             'unused-imports': unusedImports,
         },
+        languageOptions: {
+            parserOptions: {
+                parser: '@typescript-eslint/parser',
+            },
+        },
         rules: {
             'vue/multi-word-component-names': ['off'],
             'vue/html-indent': [
