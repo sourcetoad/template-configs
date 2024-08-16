@@ -20,7 +20,7 @@
     "lint:fix": "eslint --fix"
   },
   "dependencies": {
-    "@sourcetoad/eslint-config-base-template-es6": "../es6"
+    "@sourcetoad/eslint-config-base-template-es6": "^0.1.1"
   },
   "peerDependencies": {
     "eslint-plugin-simple-import-sort": ">=10.0.0",
