@@ -1,7 +1,7 @@
 {
   "name": "@sourcetoad/eslint-config-base-template-es6",
   "version": "1.0.0",
-  "main": "index.config.js",
+  "main": "eslint.config.js",
   "license": "proprietary",
   "repository": {
     "url": "git@github.com:sourcetoad/base-template-configs.git",
