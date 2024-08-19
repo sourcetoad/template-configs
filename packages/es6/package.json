@@ -1,7 +1,7 @@
 {
   "name": "@sourcetoad/eslint-config-base-template-es6",
   "version": "0.1.1",
-  "main": "index.cjs",
+  "main": "index.config.js",
   "license": "proprietary",
   "repository": {
     "url": "git@github.com:sourcetoad/base-template-configs.git",
@@ -16,11 +16,16 @@
     "access": "restricted"
   },
   "scripts": {
-    "lint": "eslint . --ext=.js,.cjs,.mjs,.ts"
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "devDependencies": {
+    "globals": "^15.9.0"
   },
   "peerDependencies": {
-    "eslint": ">=8.0",
-    "eslint-plugin-simple-import-sort": ">=10.0.0"
+    "eslint": ">=9.0",
+    "eslint-plugin-simple-import-sort": ">=10.0.0",
+    "typescript-eslint": ">=8.1.0"
   },
-  "type": "commonjs"
+  "type": "module"
 }
