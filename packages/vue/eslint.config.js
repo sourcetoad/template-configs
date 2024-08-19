@@ -1,6 +1,6 @@
+import baseTemplateConfigEs6 from '@sourcetoad/eslint-config-base-template-es6';
 import unusedImports from 'eslint-plugin-unused-imports';
 import pluginVue from 'eslint-plugin-vue';
-import baseTemplateConfigEs6 from '../es6/eslint.config.js';
 
 export default [
     ...pluginVue.configs['flat/essential'],
