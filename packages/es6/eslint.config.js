@@ -1,6 +1,6 @@
 import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort';
 import globals from 'globals';
-import {configs,parser,plugin} from 'typescript-eslint';
+import {configs, parser, plugin} from 'typescript-eslint';
 
 /** @type {import('@typescript-eslint/utils').TSESLint.FlatConfig.ConfigFile} */
 export default [
