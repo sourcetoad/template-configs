@@ -16,6 +16,7 @@
     "access": "restricted"
   },
   "scripts": {
+    "print-config": "eslint --print-config eslint.config.js",
     "lint": "eslint",
     "lint:fix": "eslint --fix"
   },
