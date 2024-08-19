@@ -16,9 +16,9 @@
     "access": "restricted"
   },
   "scripts": {
-    "print-config": "eslint --print-config eslint.config.js",
     "lint": "eslint",
-    "lint:fix": "eslint --fix"
+    "lint:fix": "eslint --fix",
+    "print:config": "eslint --print-config eslint.config.js"
   },
   "devDependencies": {
     "globals": "^15.9.0"

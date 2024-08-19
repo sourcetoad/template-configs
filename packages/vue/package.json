@@ -16,9 +16,9 @@
     "access": "restricted"
   },
   "scripts": {
-    "print-config": "eslint --print-config eslint.config.js",
     "lint": "eslint",
-    "lint:fix": "eslint --fix"
+    "lint:fix": "eslint --fix",
+    "print-config": "eslint --print-config eslint.config.js"
   },
   "dependencies": {
     "@sourcetoad/eslint-config-base-template-es6": "^1.0.1"
