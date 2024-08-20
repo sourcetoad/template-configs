@@ -8,7 +8,6 @@ export default [
     {
         name: 'base-template-config-vue',
         plugins: {
-            'vue': pluginVue,
             'unused-imports': unusedImports,
         },
         languageOptions: {
