@@ -1,5 +1,6 @@
 {
   "private": true,
+  "type": "module",
   "name": "@sourcetoad/base-template-configs",
   "description": "Linting configs for projects to create a copy from or work from.",
   "license": "proprietary",
