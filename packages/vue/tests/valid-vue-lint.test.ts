@@ -16,6 +16,6 @@ return {};
         expect(scriptIndentIssues).to.have.lengthOf.at.least(1); // Check for at least one indentation error
         scriptIndentIssues.forEach(issue => {
             expect(issue.message).to.match(/Expected indentation of \d+ spaces but found 0/);
-        });😂
+        });
     });
 });
