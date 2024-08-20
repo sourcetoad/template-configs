@@ -18,7 +18,7 @@
   "scripts": {
     "lint": "eslint",
     "lint:fix": "eslint --fix",
-    "print-config": "eslint --print-config eslint.config.js"
+    "print:config": "eslint --print-config eslint.config.js"
   },
   "dependencies": {
     "@sourcetoad/eslint-config-base-template-es6": "^1.0.1"
