@@ -1,6 +1,7 @@
 import baseTemplateConfigEs6 from '@sourcetoad/eslint-config-base-template-es6';
 import unusedImports from 'eslint-plugin-unused-imports';
 import pluginVue from 'eslint-plugin-vue';
+import vueParser from 'vue-eslint-parser';
 
 export default [
     ...pluginVue.configs['flat/essential'],
@@ -11,6 +12,7 @@ export default [
             'unused-imports': unusedImports,
         },
         languageOptions: {
+            parser: vueParser,
             parserOptions: {
                 parser: '@typescript-eslint/parser',
             },
