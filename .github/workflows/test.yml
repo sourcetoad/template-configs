@@ -26,3 +26,6 @@ jobs:
 
       - name: Linting
         run: npm run lint
+
+      - name: Testing Configs
+        run: npm run test

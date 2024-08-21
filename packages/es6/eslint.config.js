@@ -17,6 +17,7 @@ export default [
                 ...globals.browser,
                 ...globals.es2021,
             },
+            sourceType: 'module',
         },
         rules: {
             'array-bracket-spacing': ['error', 'never'],

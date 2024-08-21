@@ -1,5 +1,6 @@
 {
   "private": true,
+  "type": "module",
   "name": "@sourcetoad/base-template-configs",
   "description": "Linting configs for projects to create a copy from or work from.",
   "license": "proprietary",
@@ -22,9 +23,14 @@
     "lint": "npm run lint:es6 && npm run lint:vue && npm run lint:prettier",
     "lint:es6": "npm -w packages/es6 run lint",
     "lint:vue": "npm -w packages/vue run lint",
-    "lint:prettier": "npm -w packages/prettier run lint"
+    "lint:prettier": "npm -w packages/prettier run lint",
+    "test": "vitest"
   },
   "devDependencies": {
-    "eslint": "^9.0"
+    "@types/eslint": "^9.6.0",
+    "@types/node": "^22.4.1",
+    "eslint": "^9.0",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
   }
 }
