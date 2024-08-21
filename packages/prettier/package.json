@@ -17,7 +17,8 @@
   },
   "scripts": {
     "lint": "eslint prettier.config.js",
-    "lint:fix": "eslint prettier.config.js --fix"
+    "lint:fix": "eslint prettier.config.js --fix",
+    "print:config": "eslint --print-config eslint.config.js"
   },
   "peerDependencies": {
     "prettier": ">=3.0",
