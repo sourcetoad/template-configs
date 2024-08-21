@@ -7,6 +7,5 @@ export default defineConfig({
     mockReset: true,
     restoreMocks: true,
     setupFiles: ['vitest.setup.ts'],
-    testTimeout: 120e3
   },
 });
