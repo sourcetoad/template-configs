@@ -1,17 +1,13 @@
-# Base Template Configs
-
-Where projects start with configs to keep or replace with team specified ones. Other teams are tracked at:
-
- * [Stinger](https://github.com/sourcetoad/pod-stinger-configs)
- * [Iceman](https://github.com/sourcetoad/pod-iceman-linter-config)
+# Template Configs
+_A repo to configure our eslint and prettier rules._
 
 ### Current configs
-* [Common](packages/es6/README.md)
-* [ES6](packages/vue/README.md)
-
+* [ES6](./packages/es6/eslint.config.js)
+* [Prettier](./packages/prettier/prettier.config.js)
+* [Vue](./packages/vue/eslint.config.js)
 
 ## Notes
 
  * In order for this package to work properly. We peer to all dependencies.
  * This means the consuming package must include the peered dependencies.
- * This prevents a mismatch of versions if the rules limited what version of eslint could be used.
+ * This prevents a mismatch of versions if the rules limited what version of eslint/prettier could be used.
