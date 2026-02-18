@@ -2,6 +2,7 @@
 const config = {
     bracketSameLine: false,
     bracketSpacing: false,
+    htmlWhitespaceSensitivity: 'ignore',
     quoteProps: 'consistent',
     semi: true,
     singleAttributePerLine: false,
