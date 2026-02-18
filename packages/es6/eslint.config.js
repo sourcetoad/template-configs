@@ -20,6 +20,7 @@ export default [
             sourceType: 'module',
         },
         rules: {
+            '@typescript-eslint/no-non-null-assertion': 'error',
             'array-bracket-spacing': ['error', 'never'],
             'comma-dangle': ['error', 'always-multiline'],
             'eqeqeq': 'error',
