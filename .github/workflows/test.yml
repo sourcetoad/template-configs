@@ -18,7 +18,7 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           registry-url: 'https://npm.pkg.github.com'
-          node-version: 18
+          node-version: 22.13
           cache: 'npm'
 
       - name: NPM Install
