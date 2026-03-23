@@ -20,7 +20,7 @@
     "lint:fix": "eslint --fix",
     "print:config": "eslint --print-config eslint.config.js"
   },
-  "devDependencies": {
+  "dependencies": {
     "globals": "^15.9.0"
   },
   "peerDependencies": {
