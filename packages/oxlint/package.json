@@ -1,7 +1,7 @@
 {
   "name": "@sourcetoad/config-oxlint-base-template",
   "version": "1.0.0",
-  "main": ".oxlintrc.json",
+  "main": "oxlint.config.ts",
   "license": "proprietary",
   "repository": {
     "url": "git@github.com:sourcetoad/base-template-configs.git",
@@ -16,7 +16,7 @@
     "access": "restricted"
   },
   "scripts": {
-    "lint": "oxlint -c .oxlintrc.json"
+    "lint": "oxlint -c oxlint.config.ts"
   },
   "peerDependencies": {
     "oxlint": ">=1.0.0"

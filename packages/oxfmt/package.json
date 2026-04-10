@@ -1,7 +1,7 @@
 {
   "name": "@sourcetoad/config-oxfmt-base-template",
   "version": "1.0.0",
-  "main": ".oxfmtrc.json",
+  "main": "oxfmt.config.ts",
   "license": "proprietary",
   "repository": {
     "url": "git@github.com:sourcetoad/base-template-configs.git",
@@ -16,7 +16,7 @@
     "access": "restricted"
   },
   "scripts": {
-    "lint": "oxfmt --check ."
+    "lint": "oxfmt --check -c oxfmt.config.ts ."
   },
   "peerDependencies": {
     "oxfmt": ">=0.1.0"

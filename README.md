@@ -5,8 +5,8 @@ _A repo to configure our eslint, prettier, oxlint, and oxfmt rules._
 * [ES6](./packages/es6/eslint.config.js)
 * [Prettier](./packages/prettier/prettier.config.js)
 * [Vue](./packages/vue/eslint.config.js)
-* [Oxlint](./packages/oxlint/.oxlintrc.json)
-* [Oxfmt](./packages/oxfmt/.oxfmtrc.json)
+* [Oxlint](./packages/oxlint/oxlint.config.ts)
+* [Oxfmt](./packages/oxfmt/oxfmt.config.ts)
 
 ## Notes
 
