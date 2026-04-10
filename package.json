@@ -24,6 +24,8 @@
     "lint:es6": "npm -w packages/es6 run lint",
     "lint:vue": "npm -w packages/vue run lint",
     "lint:prettier": "npm -w packages/prettier run lint",
+    "lint:oxlint": "npm -w packages/oxlint run lint",
+    "lint:oxfmt": "npm -w packages/oxfmt run lint",
     "test": "vitest"
   },
   "devDependencies": {

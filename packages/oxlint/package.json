@@ -1,0 +1,25 @@
+{
+  "name": "@sourcetoad/config-oxlint-base-template",
+  "version": "1.0.0",
+  "main": ".oxlintrc.json",
+  "license": "proprietary",
+  "repository": {
+    "url": "git@github.com:sourcetoad/base-template-configs.git",
+    "directory": "packages/oxlint",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/sourcetoad/base-template-configs/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
+  "scripts": {
+    "lint": "oxlint -c .oxlintrc.json"
+  },
+  "peerDependencies": {
+    "oxlint": ">=1.0.0"
+  },
+  "type": "module"
+}

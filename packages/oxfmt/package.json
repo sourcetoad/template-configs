@@ -1,0 +1,25 @@
+{
+  "name": "@sourcetoad/config-oxfmt-base-template",
+  "version": "1.0.0",
+  "main": ".oxfmtrc.json",
+  "license": "proprietary",
+  "repository": {
+    "url": "git@github.com:sourcetoad/base-template-configs.git",
+    "directory": "packages/oxfmt",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/sourcetoad/base-template-configs/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
+  "scripts": {
+    "lint": "oxfmt --check ."
+  },
+  "peerDependencies": {
+    "oxfmt": ">=0.1.0"
+  },
+  "type": "module"
+}

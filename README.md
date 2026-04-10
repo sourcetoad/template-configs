@@ -1,10 +1,12 @@
 # Template Configs
-_A repo to configure our eslint and prettier rules._
+_A repo to configure our eslint, prettier, oxlint, and oxfmt rules._
 
 ### Current configs
 * [ES6](./packages/es6/eslint.config.js)
 * [Prettier](./packages/prettier/prettier.config.js)
 * [Vue](./packages/vue/eslint.config.js)
+* [Oxlint](./packages/oxlint/.oxlintrc.json)
+* [Oxfmt](./packages/oxfmt/.oxfmtrc.json)
 
 ## Notes
 
